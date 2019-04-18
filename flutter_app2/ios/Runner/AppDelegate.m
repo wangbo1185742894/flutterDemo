@@ -7,6 +7,8 @@
     didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
   [GeneratedPluginRegistrant registerWithRegistry:self];
   // Override point for customization after application launch.
+    UILabel *lab = [[UILabel alloc]init];
+  
   return [super application:application didFinishLaunchingWithOptions:launchOptions];
 }
 

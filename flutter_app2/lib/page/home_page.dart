@@ -1,9 +1,9 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_swiper/flutter_swiper.dart';
-import 'ApiManager.dart';
-import 'home_banner_bean.dart';
+import 'package:flutter_app2/tools/ApiManager.dart';
+import 'package:flutter_app2/bean/home_banner_bean.dart';
 import 'package:dio/dio.dart';
-import 'home_article_bean.dart';
+import 'package:flutter_app2/bean/home_article_bean.dart';
 import 'webview_page.dart';
 
 class home_page extends StatefulWidget{
@@ -40,8 +40,6 @@ class home_page_state extends State<home_page> with AutomaticKeepAliveClientMixi
         getList(curPage);
       }
     });
-
-
   }
 
   @override

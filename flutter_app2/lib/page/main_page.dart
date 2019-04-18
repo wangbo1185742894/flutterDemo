@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
-import 'home_page.dart';
+import 'package:flutter_app2/page/home_page.dart';
 import 'project_page.dart';
-import 'article_page.dart';
+import 'package:flutter_app2/page/article_page.dart';
 
 class WBApp extends StatefulWidget{
   @override
